@@ -1,14 +1,15 @@
-import React from 'react';
-import logo from './Chameleon.png';
-import './App.css';
+import Datecard from './components/Datecard/Datecard';
+import Navbar from './components/Mast/Mast';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <h1>LockedIN</h1>
-      </header>
+    <div className='flex w-screen justify-center'>
+      <div className="flex w-7/12 m-4">
+        <nav className='flex w-full justify-between'>
+        <Navbar />
+        <Datecard />
+        </nav>
+      </div>
     </div>
   );
 }
