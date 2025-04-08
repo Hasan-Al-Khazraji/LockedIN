@@ -1,15 +1,20 @@
 import Datecard from './components/Datecard/Datecard';
 import Navbar from './components/Mast/Mast';
+import HabitList from './components/HabitList/HabitList';
+import './App.css'
 
 function App() {
   return (
-    <div className='flex w-screen justify-center'>
-      <div className="flex w-7/12 m-4">
+    <div className="grid-container">
+      <div className='sidebar'></div>
+      <div className='content'>
         <nav className='flex w-full justify-between'>
-        <Navbar />
-        <Datecard />
+          <Navbar />
+          <Datecard />
         </nav>
+        <HabitList />
       </div>
+      <div className='sidebar'></div>
     </div>
   );
 }

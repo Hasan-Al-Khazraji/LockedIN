@@ -1,0 +1,14 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 300px 1fr 300px; /* Sidebar - Main Content - Sidebar */
+    width: 100%;
+    min-height: 100vh;
+}
+
+.sidebar {
+    padding: 20px;
+}
+
+.content {
+    padding: 20px;
+}
