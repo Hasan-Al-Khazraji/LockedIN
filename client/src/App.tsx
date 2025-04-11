@@ -12,7 +12,9 @@ function App() {
           <Navbar />
           <Datecard />
         </nav>
-        <HabitList />
+        <div className='mt-4 flex justify-between max-h-[720px]'>
+          <HabitList />
+        </div>
       </div>
       <div className='sidebar'></div>
     </div>

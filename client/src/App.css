@@ -7,8 +7,11 @@
 
 .sidebar {
     padding: 20px;
+    max-height: min-content;
+
 }
 
 .content {
     padding: 20px;
+    max-height: min-content;
 }
